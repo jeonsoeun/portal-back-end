@@ -1,0 +1,8 @@
+{
+  "name": "portal-back-end",
+  "version": "1.0.0",
+  "main": "app.ts",
+  "repository": "https://github.com/jeonsoeun/portal-back-end.git",
+  "author": "Soeun Jun <jse525@naver.com>",
+  "license": "MIT"
+}
