@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": true,
+    "removeComments": false,
+    "noImplicitAny": true,
+    "noEmitOnError": true,
+    "sourceMap": true,
+    "inlineSourceMap": false,
+    "allowJs": false,
+    "declaration": false,
+    "baseUrl": "./src", // Non-relativ 모듈 혹은 paths 옵션의 기준 디렉토리
+    "paths": {
+      // baseUrl 옵션을 기준디렉토리로 불러올 모듈의 위치 설정이 가능
+      "*": ["*"]
+    },
+    "outDir": "./dist"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/", "**/node_modules/*", "dist", "**/__tests__/*"]
+}
