@@ -5,11 +5,18 @@
   "repository": "https://github.com/jeonsoeun/portal-back-end.git",
   "author": "Soeun Jun <jse525@naver.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "",
+    "start": "nodemon src/index.ts"
+  },
   "dependencies": {
     "koa": "^2.11.0"
   },
   "devDependencies": {
     "eslint": "^6.6.0",
-    "prettier": "^1.19.1"
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.7.4"
   }
 }
