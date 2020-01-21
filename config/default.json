@@ -1,0 +1,14 @@
+{
+  "server": {
+    "port": 4000,
+    "phrase": "test local server"
+  },
+  "mongodb": {
+    "scheme": "mongodb+srv://",
+    "user": "read-and-write_01",
+    "password": "<password>",
+    "path": "cluster0-o0fs4.gcp.mongodb.net/test?retryWrites=true&w=majority",
+    "uri": "mongodb+srv://read-and-write_01:zofm9505@cluster0-o0fs4.gcp.mongodb.net/test?retryWrites=true&w=majority"
+  }
+  // {scheme}://{user}:{password}@{path}
+}
