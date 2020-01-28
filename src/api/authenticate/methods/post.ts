@@ -8,10 +8,9 @@ router.post('register', '/register/:env/:id/:name', register);
 router.post('login', '/login/:env/:id', login);
 
 async function register(ctx: Koa.Context): Promise<void> {
-  inputNewMember(ctx.params.id, ctx.params.name);
-
+  const member = inputNewMember(ctx.params.id, ctx.params.name);
   ctx.status = 200;
-  ctx.body = 'register';
+  ctx.body = member;
 }
 
 async function login(ctx: Koa.Context): Promise<void> {}

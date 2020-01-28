@@ -7,7 +7,7 @@ export const connectDB = () => {
   console.log('uri: ', uri);
 
   //mongoose.Promise = global.Promise; // Node 의 네이티브 Promise 사용
-  mongoose.connect(uri, { useNewUrlParser: true }).then((response) => {
+  mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true }).then((response) => {
     console.log('Successfully connected to mongoDB');
   });
 
